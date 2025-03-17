@@ -71,6 +71,22 @@ EcoVision is a web application designed to visualize and analyze climate data ac
       "latitude": 33.6846,
       "longitude": -117.8265,
       "region": "California"
+    },
+    {
+      "id": 2,
+      "name": "Tokyo",
+      "country": "Japan",
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "region": "Kanto"
+    },
+    {
+      "id": 3,
+      "name": "London",
+      "country": "UK",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "region": "England"
     }
   ]
 }
@@ -90,6 +106,20 @@ EcoVision is a web application designed to visualize and analyze climate data ac
       "display_name": "Temperature",
       "unit": "celsius",
       "description": "Average daily temperature"
+    },
+    {
+      "id": 2,
+      "name": "precipitation",
+      "display_name": "Precipitation",
+      "unit": "mm",
+      "description": "Daily precipitation amount"
+    },
+    {
+      "id": 3,
+      "name": "humidity",
+      "display_name": "Humidity",
+      "unit": "percent",
+      "description": "Average daily humidity"
     }
   ]
 }
@@ -103,7 +133,6 @@ EcoVision is a web application designed to visualize and analyze climate data ac
 **Response Example**:
 ```json
 {
-  "msg": "Between 2025-01-15 and 2025-03-10, in Irvine, California USA, highest temperature is 22.6 celsius, lowest temperature is 18.5 celsius and average is 20.3 celsius.",
   "data": {
     "temperature": {
       "min": 18.5,
