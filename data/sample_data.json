@@ -1,0 +1,94 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Irvine",
+      "country": "USA",
+      "latitude": 33.6846,
+      "longitude": -117.8265,
+      "region": "California"
+    },
+    {
+      "id": 2,
+      "name": "Tokyo",
+      "country": "Japan",
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "region": "Kanto"
+    },
+    {
+      "id": 3,
+      "name": "London",
+      "country": "UK",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "region": "England"
+    }
+  ],
+  "metrics": [
+    {
+      "id": 1,
+      "name": "temperature",
+      "display_name": "Temperature",
+      "unit": "celsius",
+      "description": "Average daily temperature"
+    },
+    {
+      "id": 2,
+      "name": "precipitation",
+      "display_name": "Precipitation",
+      "unit": "mm",
+      "description": "Daily precipitation amount"
+    },
+    {
+      "id": 3,
+      "name": "humidity",
+      "display_name": "Humidity",
+      "unit": "percent",
+      "description": "Average daily humidity"
+    }
+  ],
+  "climate_data": [
+    {"id": 1, "location_id": 1, "metric_id": 1, "date": "2025-01-15", "value": 18.5, "quality": "good"},
+    {"id": 2, "location_id": 1, "metric_id": 1, "date": "2025-01-30", "value": 19.2, "quality": "good"},
+    {"id": 3, "location_id": 1, "metric_id": 1, "date": "2025-02-14", "value": 20.1, "quality": "poor"},
+    {"id": 4, "location_id": 1, "metric_id": 1, "date": "2025-02-28", "value": 21.3, "quality": "good"},
+    {"id": 5, "location_id": 1, "metric_id": 1, "date": "2025-03-10", "value": 22.6, "quality": "excellent"},
+    
+    {"id": 6, "location_id": 1, "metric_id": 2, "date": "2025-01-15", "value": 2.3, "quality": "good"},
+    {"id": 7, "location_id": 1, "metric_id": 2, "date": "2025-01-30", "value": 0.6, "quality": "questionable"},
+    {"id": 8, "location_id": 1, "metric_id": 2, "date": "2025-02-14", "value": 0.0, "quality": "good"},
+    {"id": 9, "location_id": 1, "metric_id": 2, "date": "2025-02-28", "value": 5.2, "quality": "poor"},
+    {"id": 10, "location_id": 1, "metric_id": 2, "date": "2025-03-10", "value": 2.7, "quality": "good"},
+    
+    {"id": 11, "location_id": 1, "metric_id": 3, "date": "2025-01-15", "value": 62.3, "quality": "good"},
+    {"id": 12, "location_id": 1, "metric_id": 3, "date": "2025-01-30", "value": 58.7, "quality": "good"},
+    {"id": 13, "location_id": 1, "metric_id": 3, "date": "2025-02-14", "value": 55.2, "quality": "excellent"},
+    {"id": 14, "location_id": 1, "metric_id": 3, "date": "2025-02-28", "value": 60.1, "quality": "questionable"},
+    {"id": 15, "location_id": 1, "metric_id": 3, "date": "2025-03-10", "value": 65.8, "quality": "poor"},
+    
+    {"id": 16, "location_id": 2, "metric_id": 1, "date": "2025-01-15", "value": 7.3, "quality": "good"},
+    {"id": 17, "location_id": 2, "metric_id": 1, "date": "2025-01-30", "value": 7.1, "quality": "good"},
+    {"id": 18, "location_id": 2, "metric_id": 1, "date": "2025-02-14", "value": 8.8, "quality": "poor"},
+    {"id": 19, "location_id": 2, "metric_id": 1, "date": "2025-02-28", "value": 9.5, "quality": "excellent"},
+    {"id": 20, "location_id": 2, "metric_id": 1, "date": "2025-03-10", "value": 12.2, "quality": "good"},
+    
+    {"id": 21, "location_id": 2, "metric_id": 2, "date": "2025-01-15", "value": 52.5, "quality": "good"},
+    {"id": 22, "location_id": 2, "metric_id": 2, "date": "2025-01-30", "value": 43.1, "quality": "poor"},
+    {"id": 23, "location_id": 2, "metric_id": 2, "date": "2025-02-14", "value": 62.8, "quality": "questionable"},
+    {"id": 24, "location_id": 2, "metric_id": 2, "date": "2025-02-28", "value": 71.9, "quality": "good"},
+    {"id": 25, "location_id": 2, "metric_id": 2, "date": "2025-03-10", "value": 81.5, "quality": "good"},
+    
+    {"id": 26, "location_id": 3, "metric_id": 1, "date": "2025-01-15", "value": 5.3, "quality": "excellent"},
+    {"id": 27, "location_id": 3, "metric_id": 1, "date": "2025-01-30", "value": 6.1, "quality": "good"},
+    {"id": 28, "location_id": 3, "metric_id": 1, "date": "2025-02-14", "value": 7.8, "quality": "questionable"},
+    {"id": 29, "location_id": 3, "metric_id": 1, "date": "2025-02-28", "value": 8.9, "quality": "poor"},
+    {"id": 30, "location_id": 3, "metric_id": 1, "date": "2025-03-10", "value": 10.5, "quality": "good"},
+    
+    {"id": 31, "location_id": 3, "metric_id": 2, "date": "2025-01-15", "value": 32.7, "quality": "good"},
+    {"id": 32, "location_id": 3, "metric_id": 2, "date": "2025-01-30", "value": 33.5, "quality": "poor"},
+    {"id": 33, "location_id": 3, "metric_id": 2, "date": "2025-02-14", "value": 24.1, "quality": "questionable"},
+    {"id": 34, "location_id": 3, "metric_id": 2, "date": "2025-02-28", "value": 34.8, "quality": "excellent"},
+    {"id": 35, "location_id": 3, "metric_id": 2, "date": "2025-03-10", "value": 28.9, "quality": "good"}
+  ]
+}
